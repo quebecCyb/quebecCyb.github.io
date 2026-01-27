@@ -51,7 +51,11 @@ a {
 .resume-wrapper {
   position: relative;
   text-align: center;
-  height: 100%;
+  display: flex;
+}
+
+.resume-wrapper > section {
+    flex: 1;
 }
 
 .container {
