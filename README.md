@@ -1,3 +1,1 @@
 # quebecCyb.github.io
-
-Hi!
