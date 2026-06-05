@@ -55,6 +55,19 @@
     .project, .publication, .award {
       margin-bottom: 20px;
     }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      list-style: none;
+    }
+    .tag-list li {
+      background-color: #f1f3f5;
+      border: 1px solid #dee2e6;
+      border-radius: 20px;
+      padding: 8px 14px;
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -79,9 +92,11 @@
 </header>
 
 <nav>
+  <a href="#interests">Interests</a>
   <a href="#education">Education</a>
   <a href="#research">Research</a>
   <a href="#projects">Projects</a>
+  <a href="#technologies">Technologies</a>
   <a href="#awards">Awards</a>
   <a href="#contact">Contact</a>
 </nav>
@@ -90,7 +105,7 @@
   <h2>Education</h2>
   <ul>
     <li><strong>BSc — Data Analysis | Sofia University</strong><br>
-      <em>Graduation Date: 2022-2026</em> --- <em>GPA: 4.75/6.00 (Very Good) / Profile GPA ~5.15/6.00</em><br>
+      <em>Graduation Date: 2022-2026</em> --- <em>GPA: ~5.00/6.00 (Very Good)</em><br>
         Key Coursework: Linear Algebra & Calculus, Probability Theory, Mathematical Statistics, Machine Learning, 
 Information Retrieval & Deep Learning, Time Series & Stochastic Processes, Data Mining, Big Data Systems
     </li>
@@ -113,8 +128,7 @@ Information Retrieval & Deep Learning, Time Series & Stochastic Processes, Data 
         <em>Recent Advances in Natural Language Processing (RANLP 2025)</em><br>
         Abstract: We propose a novel NLP model based on Siamese architecture and pipeline for structured AI-generated text detection. Results highlight the potential of paraphrase-based methods as a robust strategy for machine-generated text detection.
       </li>
-      <!-- 
-      <li>
+      <!-- <li>
         <strong>MD5 collisions via modern hybrid methods (Future work)</strong> <br>
         Andrii Maslo, ... | <a href="#">Paper</a> · <a href="#">code</a> · <a href="#">poster</a><br>
         Abstract: Novel method for MD5 collisions search via modern hybrid <b>attack</b> methods.
@@ -201,6 +215,8 @@ Information Retrieval & Deep Learning, Time Series & Stochastic Processes, Data 
 
 </section>
 
+
+
 <section id="certifications">
   <h2>Certifications & Schools</h2>
 
@@ -224,6 +240,63 @@ Information Retrieval & Deep Learning, Time Series & Stochastic Processes, Data 
     <li>Finalist — National ML Hackathon by Diia</li>
     <li>Participation in multiple hackathons including Sofia University hackathon</li>
     <li>ESN Volunteer for buddy program and events | Sofia University, 2026</li>
+  </ul>
+</section>
+
+
+<section id="interests">
+  <h2>Professional Interests</h2>
+  <ul>
+    <li><strong>Security & Distributed Systems:</strong> cryptography, privacy-preserving architectures, P2P systems, zero-trust and decentralized applications</li>
+    <li><strong>Machine Learning Research:</strong> statistical and AI modeling</li>
+    <li><strong>Applied AI & Data Systems:</strong> scalable data pipelines, web data mining, high-throughput backend systems, production-oriented ML tooling</li>
+    <li><strong>Natural Language Processing:</strong> AI-generated text detection, disinformation analysis, multilingual NLP, information retrieval</li>
+  </ul>
+  <h2>Hobbies</h2>
+  <ul>
+    <li><strong>Drone development:</strong> building and programming quadcopter drones</li>
+    <li><strong>Motorsport</strong></li>
+  </ul>
+</section>
+
+
+<section id="technologies">
+  <h2>Technologies</h2>
+
+  <h3>Programming</h3>
+  <ul class="tag-list">
+    <li>Python</li>
+    <li>C#</li>
+    <li>Rust</li>
+    <li>JavaScript</li>
+    <li>SQL</li>
+  </ul>
+
+  <h3>AI, ML & Data</h3>
+  <ul class="tag-list">
+    <li>MLFlow</li>
+    <li>PyTorch</li>
+    <li>Transformers</li>
+    <li>HuggingFace</li>
+    <li>Pandas</li>
+    <li>NumPy</li>
+    <li>Information Retrieval</li>
+    <li>Big Data</li>
+  </ul>
+
+  <h3>Backend, Infrastructure & Databases</h3>
+  <ul class="tag-list">
+    <li>.NET</li>
+    <li>Linux</li>
+    <li>Flask</li>
+    <li>LangGraph / LangChain</li>
+    <li>Next.js</li>
+    <li>Docker</li>
+    <li>Redis</li>
+    <li>RabbitMQ</li>
+    <li>MongoDB</li>
+    <li>TCP/UDP sockets</li>
+    <li>Git (GitHub, GitLab)</li>
   </ul>
 </section>
 
